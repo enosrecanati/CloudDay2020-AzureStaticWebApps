@@ -1,0 +1,30 @@
+.toolbar {
+    display: block;
+    background-color: #1976d2;
+    color: white;
+}
+    .toolbar h1 {
+        margin: 5px;
+    }
+    
+    .toolbar ul {
+        list-style: none;
+        padding: 5px;
+    }
+        .toolbar ul > li {
+            display: inline;
+            margin: 5px;
+        }
+    
+    .toolbar a {
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+    }
+        .toolbar a:hover {
+            text-decoration: underline;
+        }
+
+.content {
+    margin: 5px;
+}
