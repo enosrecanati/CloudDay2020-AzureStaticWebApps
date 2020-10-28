@@ -1,0 +1,1 @@
+# CloudDay2020-AzureStaticWebApps
