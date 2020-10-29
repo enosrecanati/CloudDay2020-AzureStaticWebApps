@@ -1,0 +1,14 @@
+table.forecasts {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+    table.forecasts th,
+    table.forecasts td {
+        border: 1px solid #000000;
+    }
+    table.forecasts th {
+        background: #1976d2;
+        color: #ffffff;
+    }
