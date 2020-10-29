@@ -1,0 +1,40 @@
+{
+    "routes": [
+        {
+            "route": "/login/aad",
+            "serve": "/.auth/login/aad"
+        },
+        {
+            "route": "/login/facebook",
+            "serve": "/.auth/login/facebook"
+        },
+        {
+            "route": "/login/github",
+            "serve": "/.auth/login/github"
+        },
+        {
+            "route": "/login/google",
+            "serve": "/.auth/login/google"
+        },
+        {
+            "route": "/login/twitter",
+            "serve": "/.auth/login/twitter"
+        },
+        {
+            "route": "/",
+            "allowedRoles": [ "authenticated" ]
+        },
+        {
+            "route": "/*",
+            "serve": "/index.html",
+            "statusCode": 200
+        }
+    ],
+    "platformErrorOverrides": [
+        {
+            "errorType": "Unauthenticated",
+            "statusCode": "302",
+            "serve": "/authorize"
+        }
+    ]
+}
