@@ -1,4 +1,4 @@
-# CloudDay2020-AzureStaticWebApps-Dryrun
+# CloudDay2020-AzureStaticWebApps
 
 This repository contains slides and demo source code for [Cloud Day 2020](https://www.ugidotnet.org/e/1883/Cloud-Day) ["Azure Static Web Apps: what's that?"](https://www.ugidotnet.org/e/sessione/1917/Azure-Static-Web-App-what-s-that) Session.
 
